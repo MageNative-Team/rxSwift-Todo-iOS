@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3978E27D54D5472ADB7EBCEA /* Pods_rxswiftTODO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425C53721CEBFDDEC65C689E /* Pods_rxswiftTODO.framework */; };
+		CF3CDB6A26C2C64F00362DAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3CDB6926C2C64F00362DAC /* AppDelegate.swift */; };
+		CF3CDB6C26C2C64F00362DAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3CDB6B26C2C64F00362DAC /* SceneDelegate.swift */; };
+		CF3CDB7126C2C64F00362DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3CDB6F26C2C64F00362DAC /* Main.storyboard */; };
+		CF3CDB7326C2C65500362DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3CDB7226C2C65500362DAC /* Assets.xcassets */; };
+		CF3CDB7626C2C65500362DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3CDB7426C2C65500362DAC /* LaunchScreen.storyboard */; };
+		CF3CDB8026C2C76600362DAC /* listingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3CDB7F26C2C76600362DAC /* listingViewController.swift */; };
+		CF3CDB8326C2C77800362DAC /* addNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3CDB8226C2C77800362DAC /* addNewViewController.swift */; };
+		CF40CBCE26C37FF600ABEAFB /* listTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF40CBCD26C37FF600ABEAFB /* listTableViewCell.swift */; };
+		CF40CBD126C381E900ABEAFB /* listModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF40CBD026C381E900ABEAFB /* listModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F1901979F42CEF43218E941 /* Pods-rxswiftTODO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxswiftTODO.release.xcconfig"; path = "Target Support Files/Pods-rxswiftTODO/Pods-rxswiftTODO.release.xcconfig"; sourceTree = "<group>"; };
+		425C53721CEBFDDEC65C689E /* Pods_rxswiftTODO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rxswiftTODO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0939784C6584EDCDC127F5 /* Pods-rxswiftTODO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxswiftTODO.debug.xcconfig"; path = "Target Support Files/Pods-rxswiftTODO/Pods-rxswiftTODO.debug.xcconfig"; sourceTree = "<group>"; };
+		CF3CDB6626C2C64F00362DAC /* rxswiftTODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rxswiftTODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3CDB6926C2C64F00362DAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF3CDB6B26C2C64F00362DAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF3CDB7026C2C64F00362DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF3CDB7226C2C65500362DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3CDB7526C2C65500362DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF3CDB7726C2C65500362DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3CDB7F26C2C76600362DAC /* listingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listingViewController.swift; sourceTree = "<group>"; };
+		CF3CDB8226C2C77800362DAC /* addNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNewViewController.swift; sourceTree = "<group>"; };
+		CF40CBCD26C37FF600ABEAFB /* listTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listTableViewCell.swift; sourceTree = "<group>"; };
+		CF40CBD026C381E900ABEAFB /* listModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3CDB6326C2C64F00362DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3978E27D54D5472ADB7EBCEA /* Pods_rxswiftTODO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7102563F041FD0E5BC5825F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				425C53721CEBFDDEC65C689E /* Pods_rxswiftTODO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90873D8A4A2B65D358A337B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C0939784C6584EDCDC127F5 /* Pods-rxswiftTODO.debug.xcconfig */,
+				2F1901979F42CEF43218E941 /* Pods-rxswiftTODO.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF3CDB5D26C2C64F00362DAC = {
+			isa = PBXGroup;
+			children = (
+				CF3CDB6826C2C64F00362DAC /* rxswiftTODO */,
+				CF3CDB6726C2C64F00362DAC /* Products */,
+				90873D8A4A2B65D358A337B1 /* Pods */,
+				7102563F041FD0E5BC5825F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3CDB6726C2C64F00362DAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3CDB6626C2C64F00362DAC /* rxswiftTODO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3CDB6826C2C64F00362DAC /* rxswiftTODO */ = {
+			isa = PBXGroup;
+			children = (
+				CF3CDB6926C2C64F00362DAC /* AppDelegate.swift */,
+				CF3CDB6B26C2C64F00362DAC /* SceneDelegate.swift */,
+				CF3CDB7F26C2C76600362DAC /* listingViewController.swift */,
+				CF40CBD026C381E900ABEAFB /* listModel.swift */,
+				CF3CDB8226C2C77800362DAC /* addNewViewController.swift */,
+				CF3CDB6F26C2C64F00362DAC /* Main.storyboard */,
+				CF40CBCD26C37FF600ABEAFB /* listTableViewCell.swift */,
+				CF3CDB7226C2C65500362DAC /* Assets.xcassets */,
+				CF3CDB7426C2C65500362DAC /* LaunchScreen.storyboard */,
+				CF3CDB7726C2C65500362DAC /* Info.plist */,
+			);
+			path = rxswiftTODO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3CDB6526C2C64F00362DAC /* rxswiftTODO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3CDB7A26C2C65500362DAC /* Build configuration list for PBXNativeTarget "rxswiftTODO" */;
+			buildPhases = (
+				0C4F06B9EE45C1EFF6517733 /* [CP] Check Pods Manifest.lock */,
+				CF3CDB6226C2C64F00362DAC /* Sources */,
+				CF3CDB6326C2C64F00362DAC /* Frameworks */,
+				CF3CDB6426C2C64F00362DAC /* Resources */,
+				0B93C4A9F63E2287F29A503C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rxswiftTODO;
+			productName = rxswiftTODO;
+			productReference = CF3CDB6626C2C64F00362DAC /* rxswiftTODO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3CDB5E26C2C64F00362DAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					CF3CDB6526C2C64F00362DAC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = CF3CDB6126C2C64F00362DAC /* Build configuration list for PBXProject "rxswiftTODO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF3CDB5D26C2C64F00362DAC;
+			productRefGroup = CF3CDB6726C2C64F00362DAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3CDB6526C2C64F00362DAC /* rxswiftTODO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3CDB6426C2C64F00362DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3CDB7626C2C65500362DAC /* LaunchScreen.storyboard in Resources */,
+				CF3CDB7326C2C65500362DAC /* Assets.xcassets in Resources */,
+				CF3CDB7126C2C64F00362DAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B93C4A9F63E2287F29A503C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rxswiftTODO/Pods-rxswiftTODO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rxswiftTODO/Pods-rxswiftTODO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rxswiftTODO/Pods-rxswiftTODO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C4F06B9EE45C1EFF6517733 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rxswiftTODO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3CDB6226C2C64F00362DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3CDB6A26C2C64F00362DAC /* AppDelegate.swift in Sources */,
+				CF40CBD126C381E900ABEAFB /* listModel.swift in Sources */,
+				CF40CBCE26C37FF600ABEAFB /* listTableViewCell.swift in Sources */,
+				CF3CDB6C26C2C64F00362DAC /* SceneDelegate.swift in Sources */,
+				CF3CDB8026C2C76600362DAC /* listingViewController.swift in Sources */,
+				CF3CDB8326C2C77800362DAC /* addNewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF3CDB6F26C2C64F00362DAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3CDB7026C2C64F00362DAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF3CDB7426C2C65500362DAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3CDB7526C2C65500362DAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3CDB7826C2C65500362DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF3CDB7926C2C65500362DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF3CDB7B26C2C65500362DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C0939784C6584EDCDC127F5 /* Pods-rxswiftTODO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				INFOPLIST_FILE = rxswiftTODO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cedcoss.hritik.rxswiftTODO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF3CDB7C26C2C65500362DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1901979F42CEF43218E941 /* Pods-rxswiftTODO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				INFOPLIST_FILE = rxswiftTODO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cedcoss.hritik.rxswiftTODO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3CDB6126C2C64F00362DAC /* Build configuration list for PBXProject "rxswiftTODO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3CDB7826C2C65500362DAC /* Debug */,
+				CF3CDB7926C2C65500362DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3CDB7A26C2C65500362DAC /* Build configuration list for PBXNativeTarget "rxswiftTODO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3CDB7B26C2C65500362DAC /* Debug */,
+				CF3CDB7C26C2C65500362DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3CDB5E26C2C64F00362DAC /* Project object */;
+}
